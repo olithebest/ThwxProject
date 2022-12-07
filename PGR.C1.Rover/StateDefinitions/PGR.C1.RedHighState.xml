@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities
+ majorVersion="9"
+ minorVersion="3"
+ universal="password">
+    <StateDefinitions>
+        <StateDefinition
+         description=""
+         documentationContent=""
+         homeMashup=""
+         name="PGR.C1.RedHighState"
+         projectName="PGR.C1.Rover"
+         tags="">
+            <avatar></avatar>
+            <DesignTimePermissions>
+                <Create></Create>
+                <Read></Read>
+                <Update></Update>
+                <Delete></Delete>
+                <Metadata></Metadata>
+            </DesignTimePermissions>
+            <RunTimePermissions></RunTimePermissions>
+            <VisibilityPermissions>
+                <Visibility></Visibility>
+            </VisibilityPermissions>
+            <ConfigurationTableDefinitions></ConfigurationTableDefinitions>
+            <ConfigurationTables></ConfigurationTables>
+            <content>
+            <![CDATA[
+            {
+              "stateDefinitions" : [ {
+                "comparator" : "<",
+                "defaultStyleDefinition" : "PTC.CRM.CM-AppIconStyle",
+                "defaultValue" : "0",
+                "description" : "",
+                "displayString" : "Accetable",
+                "name" : ""
+              }, {
+                "comparator" : "<",
+                "defaultStyleDefinition" : "DefaultRangeMidpointStyle",
+                "defaultValue" : "1",
+                "description" : "",
+                "displayString" : "Unfavorable",
+                "name" : ""
+              }, {
+                "defaultStyleDefinition" : "PTC.Core.StatusError",
+                "defaultValue" : "",
+                "description" : "",
+                "displayString" : "Dangerous",
+                "name" : ""
+              } ],
+              "stateType" : "numeric"
+            }
+            ]]>
+            </content>
+        </StateDefinition>
+    </StateDefinitions>
+</Entities>
