@@ -52,6 +52,15 @@
                      isLocalOnly="false"
                      name="number2"
                      ordinal="3"></PropertyDefinition>
+                    <PropertyDefinition
+                     aspect.cacheTime="0.0"
+                     aspect.dataChangeType="VALUE"
+                     baseType="NUMBER"
+                     category=""
+                     description=""
+                     isLocalOnly="false"
+                     name="number3"
+                     ordinal="4"></PropertyDefinition>
                 </PropertyDefinitions>
                 <ServiceDefinitions></ServiceDefinitions>
                 <EventDefinitions></EventDefinitions>
@@ -68,6 +77,8 @@
                  name="number1"></AlertDefinitions>
                 <AlertDefinitions
                  name="number2"></AlertDefinitions>
+                <AlertDefinitions
+                 name="number3"></AlertDefinitions>
             </AlertConfigurations>
             <ImplementedShapes></ImplementedShapes>
             <ThingProperties></ThingProperties>
